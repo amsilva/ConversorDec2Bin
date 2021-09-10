@@ -1,11 +1,17 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     
     Apoio apoio = new Apoio();
+    Scanner teclado = new Scanner(System.in); 
 
-    String binario = apoio.converte(13);
+    System.out.print("Entre com o valor DECIMAL: ");
+    int ndec = teclado.nextInt();
 
-    System.out.print("binario = " + binario);
+    String binario = apoio.converte(ndec);
+
+    System.out.print("BINARIO do "+ ndec +" = " + binario);
 
     System.out.println("\nfim. exec.!");
   }
