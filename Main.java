@@ -6,13 +6,13 @@ class Main {
     Apoio apoio = new Apoio();
     Scanner teclado = new Scanner(System.in); 
 
-    System.out.print("Entre com o valor DECIMAL: ");
+    System.out.print("Valor DECIMAL: ");
     int ndec = teclado.nextInt();
 
     String binario = apoio.converte(ndec);
 
     System.out.print("BINARIO do "+ ndec +" = " + binario);
 
-    System.out.println("\nfim. exec.!");
+    System.out.println("\n\nfim. exec.!");
   }
 }

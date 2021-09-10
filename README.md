@@ -1,6 +1,6 @@
 ## ConversorDec2Bin
 
-Função que converte um número na base decimal (dado) para seu respectivo valor binário.
+Projeto de atividade pratica de laboratóório. Função que converte um número na base decimal (dado) para seu respectivo valor binário.
 
 #### 1. Funcionalidades
 
