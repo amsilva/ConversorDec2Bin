@@ -13,5 +13,5 @@ Projeto de atividade pratica de laboratóório. Função que converte um número
 - Algoritmo para conversao binário Wikipedia.com
 
 
-_copyright(R)_
+_copyright(R) unasp, ADS ETDAD_
 
