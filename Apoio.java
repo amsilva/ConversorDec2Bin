@@ -1,8 +1,10 @@
+import java.util.Stack;
 class Apoio {
 
   public static String converte(int dec) {
     int resto;
     int[] vetor = new int[10]; 
+    Stack pilha = new Stack();
     int i = 0;
     String bin = "";
 
